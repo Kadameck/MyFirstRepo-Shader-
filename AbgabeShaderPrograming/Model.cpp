@@ -100,7 +100,7 @@ bool Model::InitBuffers(ID3D11Device* device)
 	indexBufferDesc.CPUAccessFlags = 0;
 	indexBufferDesc.MiscFlags = 0;
 	indexBufferDesc.StructureByteStride = 0;
-
+	// Dieser Kommt ist nur zum test
 	indexData.pSysMem = indices;
 	indexData.SysMemPitch = 0;
 	indexData.SysMemSlicePitch = 0;
